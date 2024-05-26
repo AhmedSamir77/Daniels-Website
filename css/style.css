@@ -1,0 +1,650 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* navbar */
+.navbar-nav .nav-link.active {
+  position: relative;
+}
+.navbar-nav .nav-link.active::after {
+  content: "";
+  width: 40px;
+  height: 1.5px;
+  background-color: white;
+  position: absolute;
+  top: 70%;
+  left: 16%;
+}
+
+/* end navbar  */
+
+/* start header */
+
+header {
+  background-image: url("../images/bg.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.content p {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .special {
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.cont {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.typing p::after {
+  content: "|";
+  animation: typing 7s infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  2% {
+    content: "L|";
+  }
+  4% {
+    content: "La|";
+  }
+  6% {
+    content: "Lar|";
+  }
+  8% {
+    content: "Larr|";
+  }
+  10% {
+    content: "Larry|";
+  }
+  12% {
+    content: "Larry D|";
+  }
+  14% {
+    content: "Larry Da|";
+  }
+  16% {
+    content: "Larry Dan|";
+  }
+  18% {
+    content: "Larry Dani|";
+  }
+  20% {
+    content: "Larry Danie|";
+  }
+  22% {
+    content: "Larry Daniel|";
+  }
+  24% {
+    content: "Larry Daniels|";
+  }
+  26% {
+    content: "Larry Daniel|";
+  }
+  28% {
+    content: "Larry Danie|";
+  }
+  30% {
+    content: "Larry Dani|";
+  }
+  32% {
+    content: "Larry Dan|";
+  }
+  34% {
+    content: "Larry Da|";
+  }
+  36% {
+    content: "Larry D|";
+  }
+  38% {
+    content: "Larry|";
+  }
+  40% {
+    content: "Larr|";
+  }
+  42% {
+    content: "La|";
+  }
+  44% {
+    content: "L|";
+  }
+
+  46% {
+    content: "|";
+  }
+  48% {
+    content: "D|";
+  }
+
+  50% {
+    content: "Dev|";
+  }
+
+  52% {
+    content: "Deve|";
+  }
+
+  54% {
+    content: "Devel|";
+  }
+
+  56% {
+    content: "Develo|";
+  }
+
+  58% {
+    content: "Develope|";
+  }
+
+  60% {
+    content: "Developer|";
+  }
+
+  62% {
+    content: "Develope|";
+  }
+
+  64% {
+    content: "Develo|";
+  }
+
+  66% {
+    content: "Devel|";
+  }
+
+  68% {
+    content: "Deve|";
+  }
+
+  70% {
+    content: "Dev|";
+  }
+
+  72% {
+    content: "De|";
+  }
+
+  74% {
+    content: "D|";
+  }
+
+  76% {
+    content: "|";
+  }
+
+  78% {
+    content: "D|";
+  }
+
+  80% {
+    content: "Des|";
+  }
+
+  82% {
+    content: "Desi|";
+  }
+
+  84% {
+    content: "Desig|";
+  }
+  86% {
+    content: "Design|";
+  }
+
+  88% {
+    content: "Designer|";
+  }
+  90% {
+    content: "Designe|";
+  }
+  92% {
+    content: "Desig|";
+  }
+  94% {
+    content: "Desi|";
+  }
+  96% {
+    content: "Des|";
+  }
+  98% {
+    content: "D|";
+  }
+  100% {
+    content: "|";
+  }
+}
+
+/* end header */
+
+/* start about */
+
+#about {
+  height: 80vh;
+}
+
+#about .inner {
+  background-image: url("../images/dots.png");
+  height: 400px;
+  position: relative;
+  top: 80px;
+}
+
+#about .inner img {
+  position: relative;
+  left: 30px;
+  bottom: 120px;
+}
+
+#about .about-content h3 {
+  color: RGB(52, 52, 52);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#about .about-content .UI {
+  color: RGB(153, 153, 153);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+#about .about-content p {
+  color: RGB(116, 129, 130);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#about .about-content .custom {
+  position: absolute;
+  left: 10px;
+}
+
+#about .about-content .custom-1 {
+  position: absolute;
+  right: 10px;
+}
+#about .progress {
+  height: 3.5vh;
+  box-shadow: inset gray 2px 2px 10px 1px;
+}
+
+#about .btn-content .btn-custom-1 {
+  transition: all 0.4s;
+}
+
+#about .btn-content .btn-custom-1:hover {
+  background-color: white;
+  color: black;
+}
+
+#about .btn-content .btn-custom-2 {
+  transition: all 0.4s;
+}
+
+#about .btn-content .btn-custom-2:hover {
+  background-color: black;
+  color: white;
+}
+/* end about */
+
+/* start services */
+
+#services {
+  background-color: #f7f7f7;
+  height: 125vh;
+}
+
+#services .inner {
+  margin-top: 170px;
+  width: 400px;
+}
+#services .inner-title {
+  background-image: url("../images/dots.png");
+  width: 170px;
+  height: 30px;
+  position: relative;
+  top: 120px;
+}
+
+#services .inner-title h3 {
+  font-family: "Poppins", sans-serif;
+  color: RGB(52, 52, 52);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  bottom: 25px;
+}
+
+#services .inner .icon {
+  background-color: #f7f7f7;
+}
+
+#services .inner .inner-content {
+  margin-top: 100px;
+}
+
+#services .inner .text-custom {
+  color: RGB(116, 129, 130);
+}
+
+#services .inner:hover .icon {
+  background-color: black;
+}
+
+#services .inner:hover .icon i {
+  color: white !important;
+}
+
+#services .icon {
+  transition: all 0.5s;
+}
+
+#services .icon i {
+  transition: all 0.5s;
+}
+
+/* end services */
+
+/* start portfolio */
+
+#portfolio {
+  height: 135vh;
+}
+
+#portfolio .inner-title {
+  background-image: url("../images/dots.png");
+  width: 170px;
+  height: 30px;
+  position: relative;
+  top: 120px;
+}
+
+#portfolio .inner-title h3 {
+  font-family: "Poppins", sans-serif;
+  color: RGB(52, 52, 52);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  bottom: 25px;
+}
+
+#portfolio .nav-custom {
+  position: relative;
+  top: 200px;
+}
+
+#portfolio .tab-custom {
+  position: relative;
+  top: 200px;
+}
+
+#portfolio .nav-pills .nav-link.active {
+  background-color: transparent;
+  color: black;
+}
+
+#portfolio .nav-pills .nav-link.active {
+  position: relative;
+}
+
+#portfolio .nav-pills .nav-link.active::after {
+  content: "";
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}
+
+#portfolio .nav-link {
+  color: black;
+}
+
+#portfolio .inner {
+  width: 350px;
+  position: relative;
+}
+
+#portfolio .inner .layer {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 1s, border 0.5s;
+}
+
+#portfolio .inner:hover .layer {
+  opacity: 1;
+  border: solid 5px #d7d5d6;
+}
+
+#portfolio .inner .layer p {
+  color: RGB(52, 52, 52);
+  font-size: 12px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#portfolio .inner .layer .custom {
+  position: relative;
+  top: 120px;
+}
+
+/* end portfolio */
+
+/* start slider */
+
+#slider {
+  height: 80vh;
+
+  background-color: #f7f7f7;
+}
+
+#slider .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #869791;
+}
+
+#slider .logo-custom {
+  width: 12%;
+}
+
+#slider .inner-title {
+  background-image: url("../images/dots.png");
+  width: 250px;
+  height: 30px;
+  position: relative;
+  top: 120px;
+}
+
+#slider .inner-title h3 {
+  font-family: "Poppins", sans-serif;
+  color: RGB(52, 52, 52);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  bottom: 25px;
+}
+
+/* start details */
+
+#details {
+  height: 55vh;
+}
+
+#details .inner {
+  margin-top: 120px;
+}
+
+#details .info {
+  position: relative;
+  top: 85px;
+  left: 5px;
+}
+#details .info p {
+  color: white;
+}
+
+/* start team */
+
+#team {
+  padding: 40px 80px;
+  background-color: #f7f7f7;
+}
+
+#team .section-title {
+  background-image: url("../images/dots.png");
+  text-align: center;
+  width: 230px;
+  height: 40px;
+  margin: auto;
+}
+
+#team .section-title h3 {
+  font-family: "Poppins", sans-serif;
+  color: RGB(52, 52, 52);
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  bottom: 15px;
+}
+
+.section-head {
+  padding: 40px;
+  text-align: center;
+}
+.section-head h3 {
+  font-weight: 900;
+  font-size: 40px;
+}
+.team-content {
+  padding-top: 40px;
+}
+.one {
+  position: relative;
+}
+.one:hover .social {
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
+  right: 5px;
+  transform: rotateY(360deg);
+  opacity: 1;
+}
+.one:hover .img {
+  transform: scale(1.2);
+}
+.img {
+  transition: all 0.5s;
+  width: 100%;
+}
+.img-content {
+  overflow: hidden;
+}
+.social {
+  opacity: 0;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  bottom: 100px;
+  right: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+.social-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-content li {
+  list-style-type: none;
+}
+
+#team .social a {
+  text-decoration: none;
+}
+.icon1 {
+  color: white;
+  background-color: black;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-text {
+  text-align: center;
+  color: white;
+  background-color: #5b5b5b;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* start contact */
+
+
+#contact {
+  padding: 40px 80px;
+}
+.icons .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.icons .item:hover .icon {
+  background-color: black;
+  color: white;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+  transition: all 0.5s;
+}
+.btn {
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+}
+.btn:hover .btn {
+  background-color: white;
+  color: black;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  color: #4e645f;
+  text-align: center;
+}
